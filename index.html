@@ -3,98 +3,499 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal portfolio page for Kartheek.">
-    <title>Kartheek | Portfolio</title>
+    <meta
+      name="description"
+      content="Kartheek Anand - AI automation, cloud security, DevSecOps, OCI, Kubernetes, Terraform, Ansible, and Oracle APEX architect."
+    >
+    <title>Kartheek Anand | AI Automation & Cloud Architect</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="page-shell">
+    <div class="page-ambient" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Kartheek Anand home.">
+        <img class="brand-mark" src="ka-logo.svg" alt="Kartheek Anand logo.">
+        <span class="brand-text">
+          <span>Kartheek Anand</span>
+          <small>AI Automation Expert + Cloud Architect.</small>
+        </span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#expertise">Expertise</a>
+        <a href="#impact">Impact</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
       <section class="hero" aria-labelledby="intro-title">
         <div class="hero-copy">
-          <p class="eyebrow">Personal Portfolio</p>
-          <h1 id="intro-title">Hi, I'm Kartheek.</h1>
+          <h1 id="intro-title">AI automation and secure cloud architecture for enterprise platforms.</h1>
           <p class="intro">
-            I am a curious and disciplined learner who enjoys building useful things,
-            solving practical problems, and improving a little every day. I like turning
-            ideas into clear, reliable work that people can understand and use.
+            I help teams convert manual operations and complex platform challenges into
+            secure, scalable, and cost-efficient automation. My work combines MCP-enabled
+            AI workflows, OCI and hybrid cloud architecture, DevSecOps, Kubernetes, IaC,
+            IAM, and Oracle APEX delivery for systems that need resilience and governance.
           </p>
-          <div class="actions" aria-label="Primary links">
-            <a class="button primary" href="mailto:your.email@example.com">Contact Me</a>
+          <ul class="hero-points" aria-label="Core strengths.">
+            <li>MCP-enabled AI automation</li>
+            <li>OCI, hybrid cloud, and Kubernetes</li>
+            <li>Security-first DevSecOps delivery</li>
+          </ul>
+          <div class="actions" aria-label="Primary profile links">
+            <a class="button primary" href="https://www.linkedin.com/in/kartheek-anand-rao-mukhirala/">Connect on LinkedIn</a>
             <a class="button secondary" href="https://github.com/TechyAnand">GitHub</a>
           </div>
         </div>
 
-        <div class="profile-panel" aria-label="Profile highlights">
-          <div class="avatar" aria-hidden="true">K</div>
-          <dl class="quick-facts">
-            <div>
-              <dt>Focus</dt>
-              <dd>Learning, building, problem solving</dd>
+        <aside class="architecture-board" aria-label="Professional capability architecture">
+          <div class="board-header">
+            <span>Architecture Focus</span>
+            <strong>AI automation, secure cloud, and platform delivery.</strong>
+          </div>
+          <div class="board-lanes">
+            <div class="lane">
+              <span class="lane-label">Automation</span>
+              <div class="lane-box">AI Skills</div>
+              <div class="lane-box">MCP Tooling</div>
+              <div class="lane-box">Python</div>
+              <div class="lane-box">Selenium + Shell</div>
             </div>
-            <div>
-              <dt>Style</dt>
-              <dd>Clear thinking, steady execution</dd>
+            <div class="lane">
+              <span class="lane-label">Delivery</span>
+              <div class="lane-box">DevSecOps</div>
+              <div class="lane-box">CI/CD Controls</div>
+              <div class="lane-box">Terraform</div>
+              <div class="lane-box">Ansible</div>
             </div>
-            <div>
-              <dt>Goal</dt>
-              <dd>Create work that is useful and meaningful</dd>
+            <div class="lane">
+              <span class="lane-label">Platform</span>
+              <div class="lane-box">OCI</div>
+              <div class="lane-box">Kubernetes</div>
+              <div class="lane-box">IAM</div>
+              <div class="lane-box">Oracle APEX</div>
             </div>
-          </dl>
-        </div>
+          </div>
+        </aside>
       </section>
 
-      <section class="section" aria-labelledby="about-title">
+      <section class="proof-strip" aria-label="Professional highlights.">
+        <article>
+          <strong>AI</strong>
+          <span>Agentic workflows, MCP tooling, and practical automation.</span>
+        </article>
+        <article>
+          <strong>OCI</strong>
+          <span>Cloud architecture across OCI, hybrid, and on-prem environments.</span>
+        </article>
+        <article>
+          <strong>CKA</strong>
+          <span>Kubernetes platform depth with automation and reliability focus.</span>
+        </article>
+        <article>
+          <strong>CCSK</strong>
+          <span>Security, identity, compliance, and DevSecOps governance.</span>
+        </article>
+      </section>
+
+      <section class="section summary-section" aria-labelledby="summary-title">
         <div class="section-heading">
-          <p class="eyebrow">About Me</p>
-          <h2 id="about-title">A short summary</h2>
+          <p class="eyebrow">Profile Summary</p>
+          <h2 id="summary-title">Architect mindset. Automation-first execution.</h2>
         </div>
-        <p>
-          I am someone who brings patience, curiosity, and consistency to the things I
-          work on. Whether I am learning a new concept, working on a project, or
-          exploring a better way to solve a problem, I try to keep my approach simple:
-          understand the goal clearly, improve step by step, and deliver something that
-          feels thoughtful and dependable.
-        </p>
-        <p>
-          I am especially interested in technology, personal growth, and projects that
-          combine creativity with real-world usefulness. This page is a small home for
-          my work, interests, and progress.
-        </p>
+        <div class="summary-grid">
+          <p>
+            I design and modernize mission-critical platforms where security, reliability,
+            cost control, and delivery speed all matter. As an OCI Certified Architect,
+            Certified Kubernetes Administrator, CCSK, and Oracle APEX expert, I connect
+            cloud architecture with practical automation so teams can move faster without
+            weakening governance.
+          </p>
+          <p>
+            My strengths sit at the intersection of Identity & Access Management,
+            Infrastructure-as-Code, DevSecOps pipelines, Python and Shell automation,
+            Oracle APEX, and AI-assisted workflow automation. I focus on practical AI
+            automation patterns such as MCP tool connectivity, reusable skills, agentic
+            task workflows, human-in-the-loop controls, and secure integrations that help
+            teams reduce manual work without losing governance.
+          </p>
+        </div>
       </section>
 
-      <section class="section split" aria-labelledby="skills-title">
-        <div>
-          <div class="section-heading">
-            <p class="eyebrow">Strengths</p>
-            <h2 id="skills-title">What I bring</h2>
-          </div>
-          <ul class="pill-list">
-            <li>Problem solving</li>
-            <li>Fast learning</li>
-            <li>Communication</li>
-            <li>Consistency</li>
-            <li>Creative thinking</li>
-            <li>Attention to detail</li>
-          </ul>
+      <section id="expertise" class="section" aria-labelledby="expertise-title">
+        <div class="section-heading">
+          <p class="eyebrow">Expertise</p>
+          <h2 id="expertise-title">Where I create value.</h2>
         </div>
+        <div class="capability-grid">
+          <article>
+            <span class="capability-icon">01</span>
+            <h3>AI Automation</h3>
+            <p>
+              Configure AI skills, connect tools through MCP-style interfaces, and build
+              agentic workflows that automate repetitive tasks while preserving security,
+              reviewability, and human control.
+            </p>
+          </article>
+          <article>
+            <span class="capability-icon">02</span>
+            <h3>Cloud Architecture</h3>
+            <p>
+              Design secure OCI, hybrid, and on-prem patterns with scalability,
+              performance, resilience, and cost efficiency built in from the start.
+            </p>
+          </article>
+          <article>
+            <span class="capability-icon">03</span>
+            <h3>DevSecOps</h3>
+            <p>
+              Build automated pipelines that embed security checks, compliance controls,
+              and release reliability into the software delivery lifecycle.
+            </p>
+          </article>
+          <article>
+            <span class="capability-icon">04</span>
+            <h3>IaC & Platform Engineering</h3>
+            <p>
+              Use Terraform, Ansible, Kubernetes, scripting, and repeatable patterns to
+              make infrastructure easier to operate, audit, and scale.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="impact" class="section dark-section" aria-labelledby="impact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Impact</p>
+          <h2 id="impact-title">Built for business outcomes.</h2>
+        </div>
+        <div class="impact-grid">
+          <article>
+            <strong>Millions</strong>
+            <span>Users supported through mission-critical application modernization.</span>
+          </article>
+          <article>
+            <strong>1000s</strong>
+            <span>Manual hours removed through Python, Shell, APEX, and workflow automation.</span>
+          </article>
+          <article>
+            <strong>24x7</strong>
+            <span>Resilience mindset for enterprise systems, operations, and compliance.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section ai-section" aria-labelledby="ai-title">
+        <div class="section-heading">
+          <p class="eyebrow">AI Automation Focus</p>
+          <h2 id="ai-title">From AI experiments to controlled enterprise automation.</h2>
+        </div>
+        <div class="ai-focus-grid">
+          <article>
+            <h3>MCP and Tool Connectivity</h3>
+            <p>
+              Connect AI assistants to trusted tools, APIs, repositories, documents, and
+              operational systems through structured integration patterns.
+            </p>
+          </article>
+          <article>
+            <h3>Agentic Workflow Design</h3>
+            <p>
+              Break complex work into repeatable AI-assisted tasks with clear inputs,
+              tool usage, review points, and measurable outcomes.
+            </p>
+          </article>
+          <article>
+            <h3>Secure Automation Governance</h3>
+            <p>
+              Apply identity, access, approvals, logging, and human-in-the-loop controls
+              so automation remains useful, auditable, and enterprise-safe.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Toolbox</p>
+          <h2 id="skills-title">Security, cloud, automation, and low-code delivery.</h2>
+        </div>
+        <ul class="pill-list">
+          <li>OCI</li>
+          <li>Kubernetes</li>
+          <li>Terraform</li>
+          <li>Ansible</li>
+          <li>IAM</li>
+          <li>DevSecOps</li>
+          <li>Cloud Security</li>
+          <li>Python</li>
+          <li>Shell Scripting</li>
+          <li>Oracle APEX</li>
+          <li>Generative AI</li>
+          <li>AI Workflow Automation</li>
+          <li>MCP Tool Integration</li>
+          <li>Agentic Workflows</li>
+          <li>Human-in-the-Loop Automation</li>
+          <li>Hybrid Cloud</li>
+          <li>Compliance</li>
+        </ul>
+      </section>
+
+      <section class="section cert-section" aria-labelledby="cert-title">
+        <div class="section-heading">
+          <p class="eyebrow">Certifications</p>
+          <h2 id="cert-title">Certifications and professional credentials.</h2>
+        </div>
+        <div class="cert-grid">
+          <span>OCI Architect Associate</span>
+          <span>OCI Architect Professional</span>
+          <span>OCI Generative AI</span>
+          <span>Certified Kubernetes Administrator</span>
+          <span>CSA CCSK</span>
+          <span>HashiCorp Terraform</span>
+          <span>Tines Advanced & Core</span>
+          <span>Certified Scrum Master</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">GitHub and portfolio work.</h2>
+        </div>
+        <div class="project-list">
+          <article>
+            <h3>Python Automation Projects</h3>
+            <p>
+              Automation work using Python, Selenium, AWK, and supporting scripts for
+              repeatable operations and productivity-focused engineering tasks.
+            </p>
+            <a href="https://github.com/TechyAnand/Projects">View Projects repo</a>
+          </article>
+          <article>
+            <h3>AI Exploration</h3>
+            <p>
+              AI experiments, notes, and practical patterns focused on MCP tooling,
+              agent workflows, prompt design, automation use cases, and engineering
+              adoption.
+            </p>
+            <a href="https://github.com/TechyAnand/AI">View AI repo</a>
+          </article>
+          <article>
+            <h3>Technical Writing and Knowledge Sharing</h3>
+            <p>
+              LinkedIn articles and technical videos covering DevSecOps, AI agents,
+              Terraform, Docker, Linux, AWK, Bash, and Python-in-browser concepts.
+            </p>
+            <a href="#articles">View articles</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section video-section" aria-labelledby="videos-title">
+        <div class="section-heading">
+          <p class="eyebrow">Knowledge Sharing</p>
+          <h2 id="videos-title">Technical videos for learning and knowledge sharing.</h2>
+        </div>
+        <p class="section-intro">
+          Practical engineering videos covering scripting, DevOps, and developer-focused topics.
+        </p>
+        <div class="video-slider" aria-label="Knowledge sharing video carousel.">
+          <div class="video-track">
+            <article>
+              <a class="video-thumb" href="https://www.youtube.com/watch?v=VOTvXefel1M" aria-label="Watch Linux Commands for Shell Scripting / DevOps on YouTube.">
+                <img src="https://img.youtube.com/vi/VOTvXefel1M/hqdefault.jpg" alt="YouTube thumbnail for Linux Commands for Shell Scripting / DevOps.">
+                <span>Watch Recording</span>
+              </a>
+              <div class="video-copy">
+                <h3>Linux Commands for Shell Scripting / DevOps</h3>
+                <p>Practical Linux command-line concepts for shell scripting and DevOps workflows.</p>
+                <a href="https://www.youtube.com/watch?v=VOTvXefel1M">Open on YouTube</a>
+              </div>
+            </article>
+            <article>
+              <a class="video-thumb" href="https://www.youtube.com/watch?v=bL6InlElA2E" aria-label="Watch Learn AWK Scripting Language on YouTube.">
+                <img src="https://img.youtube.com/vi/bL6InlElA2E/hqdefault.jpg" alt="YouTube thumbnail for Learn AWK Scripting Language.">
+                <span>Watch Recording</span>
+              </a>
+              <div class="video-copy">
+                <h3>Learn AWK Scripting Language</h3>
+                <p>AWK scripting fundamentals for text processing, automation, and command-line productivity.</p>
+                <a href="https://www.youtube.com/watch?v=bL6InlElA2E">Open on YouTube</a>
+              </div>
+            </article>
+            <article>
+              <a class="video-thumb" href="https://www.youtube.com/watch?v=AHg5khR8hqA" aria-label="Watch Bash Arrays on YouTube.">
+                <img src="https://img.youtube.com/vi/AHg5khR8hqA/hqdefault.jpg" alt="YouTube thumbnail for Bash Arrays.">
+                <span>Watch Recording</span>
+              </a>
+              <div class="video-copy">
+                <h3>Bash Arrays</h3>
+                <p>Shell scripting concepts focused on Bash arrays and practical script structure.</p>
+                <a href="https://www.youtube.com/watch?v=AHg5khR8hqA">Open on YouTube</a>
+              </div>
+            </article>
+            <article>
+              <a class="video-thumb" href="https://www.youtube.com/watch?v=znd1kIGxbVQ" aria-label="Watch PyScript: Python in Browser on YouTube.">
+                <img src="https://img.youtube.com/vi/znd1kIGxbVQ/hqdefault.jpg" alt="YouTube thumbnail for PyScript: Python in Browser.">
+                <span>Watch Recording</span>
+              </a>
+              <div class="video-copy">
+                <h3>PyScript: Python in Browser</h3>
+                <p>Exploration of running Python in the browser with PyScript.</p>
+                <a href="https://www.youtube.com/watch?v=znd1kIGxbVQ">Open on YouTube</a>
+              </div>
+            </article>
+            <article aria-hidden="true">
+              <a class="video-thumb" href="https://www.youtube.com/watch?v=VOTvXefel1M" aria-label="Watch Linux Commands for Shell Scripting / DevOps on YouTube.">
+                <img src="https://img.youtube.com/vi/VOTvXefel1M/hqdefault.jpg" alt="YouTube thumbnail for Linux Commands for Shell Scripting / DevOps.">
+                <span>Watch Recording</span>
+              </a>
+              <div class="video-copy">
+                <h3>Linux Commands for Shell Scripting / DevOps</h3>
+                <p>Practical Linux command-line concepts for shell scripting and DevOps workflows.</p>
+                <a href="https://www.youtube.com/watch?v=VOTvXefel1M">Open on YouTube</a>
+              </div>
+            </article>
+            <article aria-hidden="true">
+              <a class="video-thumb" href="https://www.youtube.com/watch?v=bL6InlElA2E" aria-label="Watch Learn AWK Scripting Language on YouTube.">
+                <img src="https://img.youtube.com/vi/bL6InlElA2E/hqdefault.jpg" alt="YouTube thumbnail for Learn AWK Scripting Language.">
+                <span>Watch Recording</span>
+              </a>
+              <div class="video-copy">
+                <h3>Learn AWK Scripting Language</h3>
+                <p>AWK scripting fundamentals for text processing, automation, and command-line productivity.</p>
+                <a href="https://www.youtube.com/watch?v=bL6InlElA2E">Open on YouTube</a>
+              </div>
+            </article>
+            <article aria-hidden="true">
+              <a class="video-thumb" href="https://www.youtube.com/watch?v=AHg5khR8hqA" aria-label="Watch Bash Arrays on YouTube.">
+                <img src="https://img.youtube.com/vi/AHg5khR8hqA/hqdefault.jpg" alt="YouTube thumbnail for Bash Arrays.">
+                <span>Watch Recording</span>
+              </a>
+              <div class="video-copy">
+                <h3>Bash Arrays</h3>
+                <p>Shell scripting concepts focused on Bash arrays and practical script structure.</p>
+                <a href="https://www.youtube.com/watch?v=AHg5khR8hqA">Open on YouTube</a>
+              </div>
+            </article>
+            <article aria-hidden="true">
+              <a class="video-thumb" href="https://www.youtube.com/watch?v=znd1kIGxbVQ" aria-label="Watch PyScript: Python in Browser on YouTube.">
+                <img src="https://img.youtube.com/vi/znd1kIGxbVQ/hqdefault.jpg" alt="YouTube thumbnail for PyScript: Python in Browser.">
+                <span>Watch Recording</span>
+              </a>
+              <div class="video-copy">
+                <h3>PyScript: Python in Browser</h3>
+                <p>Exploration of running Python in the browser with PyScript.</p>
+                <a href="https://www.youtube.com/watch?v=znd1kIGxbVQ">Open on YouTube</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="articles" class="section article-section" aria-labelledby="articles-title">
+        <div class="section-heading">
+          <p class="eyebrow">LinkedIn Articles</p>
+          <h2 id="articles-title">Thought leadership and practical guides.</h2>
+        </div>
+        <div class="article-slider" aria-label="LinkedIn article slideshow">
+          <div class="article-track">
+            <article>
+              <h3>Forward vs Reverse Proxies: Practical DevSecOps Guide</h3>
+              <p>Proxy concepts explained for practical DevSecOps use cases.</p>
+              <a href="https://www.linkedin.com/pulse/forward-vs-reverse-proxies-practical-devsecops-guide-mukhirala-z6auc/">Read on LinkedIn</a>
+            </article>
+            <article>
+              <h3>OAuth vs JWT in Modern Cloud Systems</h3>
+              <p>Identity and token concepts for modern cloud architectures.</p>
+              <a href="https://www.linkedin.com/pulse/oauth-vs-jwt-modern-cloud-systems-kartheek-anand-rao-mukhirala-8ry7c/">Read on LinkedIn</a>
+            </article>
+            <article>
+              <h3>OWASP Top 10: Why It Actually Matters</h3>
+              <p>Application security risks viewed through a DevSecOps lens.</p>
+              <a href="https://www.linkedin.com/pulse/owasp-top-10-why-actually-mattersfrom-devsecops-mukhirala-2dltc/">Read on LinkedIn</a>
+            </article>
+            <article>
+              <h3>Ultimate Docker Interview Guide: Concepts and Commands</h3>
+              <p>Docker concepts and commands for interview preparation.</p>
+              <a href="https://www.linkedin.com/pulse/ultimate-docker-interview-guide-concepts-commands-prep-mukhirala-pljfc/">Read on LinkedIn</a>
+            </article>
+            <article>
+              <h3>AI Agent Actions: A Friendly Guide for Everyone</h3>
+              <p>A beginner-friendly look at AI agents and their actions.</p>
+              <a href="https://www.linkedin.com/pulse/ai-agent-actions-friendly-guide-everyone-kartheek-anand-rao-mukhirala-p57zc/">Read on LinkedIn</a>
+            </article>
+            <article>
+              <h3>Using LangChain Chat Prompts with Google Gemini</h3>
+              <p>Developer-focused exploration of LangChain prompts with Gemini.</p>
+              <a href="https://www.linkedin.com/pulse/using-langchain-chat-prompts-google-gemini-developers-mukhirala-gin9c/">Read on LinkedIn</a>
+            </article>
+            <article>
+              <h3>ReAct vs Chain of Thought: How AI Agents Think and Do</h3>
+              <p>AI agent reasoning patterns explained through ReAct and chain-of-thought concepts.</p>
+              <a href="https://www.linkedin.com/pulse/react-vs-chain-of-thought-how-ai-agents-think-do-mukhirala-uge5c/">Read on LinkedIn</a>
+            </article>
+            <article>
+              <h3>Understanding PKI, Certificates, and TLS</h3>
+              <p>A beginner-friendly guide to public key infrastructure, certificates, and TLS.</p>
+              <a href="https://www.linkedin.com/pulse/understanding-pki-certificates-tls-beginner-friendly-guide-mukhirala-asq7c/">Read on LinkedIn</a>
+            </article>
+            <article>
+              <h3>Cracking Terraform Interviews: Comprehensive Guide</h3>
+              <p>Terraform interview preparation covering core concepts and practical knowledge.</p>
+              <a href="https://www.linkedin.com/pulse/cracking-terraform-interviews-comprehensive-guide-mukhirala-yaw3c/">Read on LinkedIn</a>
+            </article>
+            <article aria-hidden="true">
+              <h3>Forward vs Reverse Proxies: Practical DevSecOps Guide</h3>
+              <p>Proxy concepts explained for practical DevSecOps use cases.</p>
+              <a href="https://www.linkedin.com/pulse/forward-vs-reverse-proxies-practical-devsecops-guide-mukhirala-z6auc/">Read on LinkedIn</a>
+            </article>
+            <article aria-hidden="true">
+              <h3>OAuth vs JWT in Modern Cloud Systems</h3>
+              <p>Identity and token concepts for modern cloud architectures.</p>
+              <a href="https://www.linkedin.com/pulse/oauth-vs-jwt-modern-cloud-systems-kartheek-anand-rao-mukhirala-8ry7c/">Read on LinkedIn</a>
+            </article>
+            <article aria-hidden="true">
+              <h3>OWASP Top 10: Why It Actually Matters</h3>
+              <p>Application security risks viewed through a DevSecOps lens.</p>
+              <a href="https://www.linkedin.com/pulse/owasp-top-10-why-actually-mattersfrom-devsecops-mukhirala-2dltc/">Read on LinkedIn</a>
+            </article>
+            <article aria-hidden="true">
+              <h3>Ultimate Docker Interview Guide: Concepts and Commands</h3>
+              <p>Docker concepts and commands for interview preparation.</p>
+              <a href="https://www.linkedin.com/pulse/ultimate-docker-interview-guide-concepts-commands-prep-mukhirala-pljfc/">Read on LinkedIn</a>
+            </article>
+            <article aria-hidden="true">
+              <h3>AI Agent Actions: A Friendly Guide for Everyone</h3>
+              <p>A beginner-friendly look at AI agents and their actions.</p>
+              <a href="https://www.linkedin.com/pulse/ai-agent-actions-friendly-guide-everyone-kartheek-anand-rao-mukhirala-p57zc/">Read on LinkedIn</a>
+            </article>
+            <article aria-hidden="true">
+              <h3>Using LangChain Chat Prompts with Google Gemini</h3>
+              <p>Developer-focused exploration of LangChain prompts with Gemini.</p>
+              <a href="https://www.linkedin.com/pulse/using-langchain-chat-prompts-google-gemini-developers-mukhirala-gin9c/">Read on LinkedIn</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-band" aria-labelledby="contact-title">
         <div>
-          <div class="section-heading">
-            <p class="eyebrow">Projects</p>
-            <h2>What to add next</h2>
-          </div>
-          <div class="project-list">
-            <article>
-              <h3>Project One</h3>
-              <p>Write one line about a project you are proud of and link it here.</p>
-            </article>
-            <article>
-              <h3>Project Two</h3>
-              <p>Add another project, achievement, certification, or learning milestone.</p>
-            </article>
-          </div>
+          <p class="eyebrow">Professional Network</p>
+          <h2 id="contact-title">Cloud architecture, DevSecOps, and AI automation roles.</h2>
+        </div>
+        <div class="actions">
+          <a class="button primary" href="https://www.linkedin.com/in/kartheek-anand-rao-mukhirala/">Connect on LinkedIn</a>
+          <a class="button secondary" href="https://github.com/TechyAnand">GitHub Profile</a>
         </div>
       </section>
     </main>
